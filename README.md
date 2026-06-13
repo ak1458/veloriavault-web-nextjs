@@ -1,20 +1,12 @@
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
-
-### Stack
-
-Next.js • TypeScript • React • GSAP
-
-### Local development
-
-Check the `CONTRIBUTING.md` file for details on how to set up the project locally and start contributing.
-
----
+[![Next.js](https://img.shields.io/badge/Next.js-App%20Router-black?logo=next.js)](https://nextjs.org)
+[![WooCommerce](https://img.shields.io/badge/WooCommerce-Headless%20API-96588A?logo=woocommerce&logoColor=white)](https://woocommerce.com)
+[![Zustand](https://img.shields.io/badge/Zustand-State%20Management-443E38)](https://github.com/pmndrs/zustand)
+[![GSAP](https://img.shields.io/badge/GSAP-Animations-88CE02?logo=greensock&logoColor=white)](https://gsap.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ﻿# ðŸš€ VeloriaVault Web
 
 Modern Next.js web application for the VeloriaVault platform. Features high-performance routing and immersive UI.
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 
 ## ðŸŒŸ Features
 * Comprehensive implementation tailored for modern standards.
