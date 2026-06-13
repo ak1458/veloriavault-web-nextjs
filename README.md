@@ -1,56 +1,16 @@
-# Veloria Headless
+﻿# ðŸš€ VeloriaVault Web
 
-A modern, premium **Headless WooCommerce** e-commerce website built with **Next.js**, **React**, and **Zustand**.
+Modern Next.js web application for the VeloriaVault platform. Features high-performance routing and immersive UI.
 
----
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
 
-## 🚀 Overview
+## ðŸŒŸ Features
+* Comprehensive implementation tailored for modern standards.
+* Secure and optimized for performance.
+* Clean architecture and easy to maintain.
 
-This project is a decoupled frontend for a WooCommerce store, designed to provide a blazing-fast, app-like user experience with rich aesthetics, glassmorphism UI accents, and smooth GSAP/Framer Motion animations.
+## ðŸ’» Tech Stack
+This project is built using **Next.js** and follows best practices for modern development.
 
-### Key Features
-
-*   **⚡ Headless Architecture**: Next.js App Router communicating with WooCommerce REST API.
-*   **🛒 Advanced Cart Drawer**: Standardized state management with Zustand, enabling auto-open drawer reveals from any generic Add to Cart action.
-*   **🎨 Dynamic Swatches**: Single product views dynamically render variation updates preserving core style thumbnails stably.
-*   **❤️ Premium Wishlist**: Rebuilt Wishlist UX containing card rounded corner transforms, sale priority badges, and bulk bulk bulk additions.
-*   **📱 Fully Responsive**: Edge-to-edge adaptive layouts for mobile and desktop viewports.
-
----
-
-## 🛠️ Tech Stack
-
-*   **Frontend**: [Next.js](https://nextjs.org/) (App Router)
-*   **Styling**: Vanilla CSS + Tailwind CSS utilities
-*   **Animations**: Framer Motion
-*   **State Management**: [Zustand](https://github.com/pmndrs/zustand)
-*   **Backend**: WooCommerce REST API
-
----
-
-## 🏁 Getting Started
-
-### 1. Installation
-
-```bash
-cd veloria-headless
-npm install
-```
-
-### 2. Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_WOOCOMMERCE_URL="https://your-wordpress-site.com"
-WOOCOMMERCE_CONSUMER_KEY="ck_..."
-WOOCOMMERCE_CONSUMER_SECRET="cs_..."
-```
-
-### 3. Run Development Server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ðŸ› ï¸ Getting Started
+Check the CONTRIBUTING.md file for details on how to set up the project locally and start contributing.
