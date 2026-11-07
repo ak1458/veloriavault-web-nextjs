@@ -1,63 +1,35 @@
-# Veloria Headless
+# VeloriaVault Web · Archive
 
-[![Next.js](https://img.shields.io/badge/Next.js-App%20Router-black?logo=next.js)](https://nextjs.org)
-[![WooCommerce](https://img.shields.io/badge/WooCommerce-Headless%20API-96588A?logo=woocommerce&logoColor=white)](https://woocommerce.com)
-[![Zustand](https://img.shields.io/badge/Zustand-State%20Management-443E38)](https://github.com/pmndrs/zustand)
-[![GSAP](https://img.shields.io/badge/GSAP-Animations-88CE02?logo=greensock&logoColor=white)](https://gsap.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+Archived Next.js storefront source retained for reference and comparison.
 
+[![Status: Archived](https://img.shields.io/badge/Status-Archived-64748b?style=flat-square)](https://github.com/ak1458/veloriavault-web-nextjs)
+[![License: MIT](https://img.shields.io/badge/License-MIT-64748b?style=flat-square)](LICENSE)
 
-A modern, premium **Headless WooCommerce** e-commerce website built with **Next.js**, **React**, and **Zustand**.
+## Scope and status
 
----
+The repository is read-only between maintenance changes. Its current tree closely matches veloriavault-headless-v2. Review histories, deployment references, WooCommerce configuration, and license differences before consolidating any archive.
 
-## 🚀 Overview
+## Inspect the source
 
-This project is a decoupled frontend for a WooCommerce store, designed to provide a blazing-fast, app-like user experience with rich aesthetics, glassmorphism UI accents, and smooth GSAP/Framer Motion animations.
+The repository’s default branch is the source of truth for the files currently available. Inspect [history](https://github.com/ak1458/veloriavault-web-nextjs/commits) to understand changes over time. Do not treat an archive label as a build or runtime validation.
 
-### Key Features
+Top-level source areas: `docs/`, `public/`, `src/`.
 
-*   **⚡ Headless Architecture**: Next.js App Router communicating with WooCommerce REST API.
-*   **🛒 Advanced Cart Drawer**: Standardized state management with Zustand, enabling auto-open drawer reveals from any generic Add to Cart action.
-*   **🎨 Dynamic Swatches**: Single product views dynamically render variation updates preserving core style thumbnails stably.
-*   **❤️ Premium Wishlist**: Rebuilt Wishlist UX containing card rounded corner transforms, sale priority badges, and bulk bulk bulk additions.
-*   **📱 Fully Responsive**: Edge-to-edge adaptive layouts for mobile and desktop viewports.
+## Setup and versions
 
----
+No new binary release or registry package is published by this documentation update. For historical reproduction, review the checked-in manifest and environment requirements first, use an isolated database, and keep production credentials out of the checkout. A dependency install is not proof that old integrations still work.
 
-## 🛠️ Tech Stack
+## Historical documentation
 
-*   **Frontend**: [Next.js](https://nextjs.org/) (App Router)
-*   **Styling**: Vanilla CSS + Tailwind CSS utilities
-*   **Animations**: Framer Motion
-*   **State Management**: [Zustand](https://github.com/pmndrs/zustand)
-*   **Backend**: WooCommerce REST API
+- [CONTRIBUTING.md](<CONTRIBUTING.md>)
+- [SECURITY.md](<SECURITY.md>)
+- [docs/WORK_DONE.md](<docs/WORK_DONE.md>)
+- [FONTS.md](<FONTS.md>)
 
----
+## Maintenance
 
-## 🏁 Getting Started
+Keep archived material separate from the current showcase. Before deleting or consolidating it, preserve a verified backup and check branch/tag history, client obligations, references, and the canonical deployment. This README does not authorize removing a backup or third-party notice.
 
-### 1. Installation
+## License
 
-```bash
-cd veloria-headless
-npm install
-```
-
-### 2. Environment Variables
-
-Create a `.env.local` file in the root directory:
-
-```env
-NEXT_PUBLIC_WOOCOMMERCE_URL="https://your-wordpress-site.com"
-WOOCOMMERCE_CONSUMER_KEY="ck_..."
-WOOCOMMERCE_CONSUMER_SECRET="cs_..."
-```
-
-### 3. Run Development Server
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+MIT — see [LICENSE](LICENSE). Bundled framework, plugin, font, and other dependency files retain their own licenses; a root project license does not erase third-party rights.
